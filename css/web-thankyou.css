@@ -36,6 +36,7 @@ h2.ty-cards-h2{
 h3.ty-card1-h3{
     font-size: 20px;
     margin-bottom: 30px;
+    text-transform:lowercase;
 }
 h3.ty-card1-text{
     font-size: 20px;
@@ -46,9 +47,9 @@ h3.ty-card1-text{
     border: 2px solid #fff;
     box-shadow: 2px 2px 75px 0 #dcdcdc;
     border-radius: 5px;
-    height: 170px;
+    height: 250px;
     width: 94%;
-    max-width: 350px;
+    max-width: 250px;
     padding: 10px;
     margin: 25px auto;
     
