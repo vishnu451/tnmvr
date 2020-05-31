@@ -95,6 +95,7 @@ img.web-social-icon{
 .accordion .fa{
     margin-right: 0.5rem;
 }
+
 /*Accordian CSS ends here*/
 @media only screen and (min-width: 700px) {
 .web-tn-flex-container{
@@ -110,4 +111,7 @@ p.web-tn-para2 {
 /* section.web-tn-section-1 {
    padding: 0px 0px 40px;
 } */
+div.card-body{
+    height: 500px;
+}
 }
