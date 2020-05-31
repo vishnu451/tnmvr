@@ -114,4 +114,9 @@ p.web-tn-para2 {
 div.card-body{
     height: 500px;
 }
+a.nav-link{
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+}
 }
