@@ -1,47 +1,50 @@
-section.webinar-ty-section-1{
+section.web-tn-section-1{
     background: #0093dd;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
-h1.web-ty-h1{
+h1.web-tn-h1{
     font-family: "Lato", sans-serif;
     color: #fff;
     font-size: 30px;
-    margin-top: 30px;
+    text-align: left;
 }
-p.web-ty-para1{
+p.web-tn-para1{
     color: #fff;
     font-size: 15px;
 }
-p.web-ty-para2{
+p.web-tn-para2{
     color: #ffd246;
     font-weight: bold;
     font-style: italic;
     font-size: 15px;
 }
-span.webinar-time,.webinar-date{
+span.web-time,.web-date{
     color: #fff;
     font-family: "Lato", sans-serif;
     font-size: 17px;
 }
-section.webinar-ty-cards{
-    background: #f3f3f3;
+section.web-tn-cards{
+    background: #fff;
     padding: 10px;
+    width: 100%;
+    height: auto;
+
 }
-h2.ty-cards-h2{
+h2.tn-cards-h2{
     color: #000;
     font-size: 24px;
     text-align: center;
 }
-h3.ty-card1-h3{
+h3.tn-card1-h3{
     font-size: 20px;
     margin-bottom: 30px;
 }
-h3.ty-card1-text{
+h3.tn-card1-text{
     font-size: 20px;
     margin-bottom:50px;
 }
-.ty-card1{
+.tn-card1{
     background: #fff;
     border: 2px solid #fff;
     box-shadow: 2px 2px 75px 0 #dcdcdc;
@@ -53,7 +56,7 @@ h3.ty-card1-text{
     margin: 25px auto;
     
 }
-.ty-card2{
+.tn-card2{
     height: 170px;
     width: 94%;
     max-width: 350px;
@@ -61,14 +64,14 @@ h3.ty-card1-text{
     margin: 25px auto;
     text-align: center;
 }
-p.ty-cards-para{
+p.tn-cards-para{
     font-size: 18px;
     margin-bottom: 25px;
 }
-a.ty-card1-btn{
+a.tn-card1-btn{
     margin-left: 190px;
 }
-a.ty-card2-btn{
+a.tn-card2-btn{
     background:#0093dd;
     color: #fff;
     padding: 10px 35px;
@@ -78,25 +81,33 @@ a.ty-card2-btn{
     font-weight: 700;
     font-size: 15px;
 }
-.webinar-social-icons{
+.web-social-icons{
     text-align: center;
 }
-img.webinar-social-icon{
+img.web-social-icon{
     width:15%;
     margin-right:5px;
 }
+/*Accordian CSS starts here*/
+.bs-example{
+    margin: 20px;
+}
+.accordion .fa{
+    margin-right: 0.5rem;
+}
+/*Accordian CSS ends here*/
 @media only screen and (min-width: 700px) {
-.web-ty-flex-container{
+.web-tn-flex-container{
     display: flex;
     flex-wrap: wrap;
 }
-img.webinar-social-icon {
+img.web-social-icon {
     width: 4%;
 }
-p.web-ty-para2 {
+p.web-tn-para2 {
     font-size: 20px;
 }
-section.webinar-ty-section-1 {
+/* section.web-tn-section-1 {
    padding: 0px 0px 40px;
-}
+} */
 }
