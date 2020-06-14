@@ -148,4 +148,7 @@ input.message-box{
 sup{
     color: red;
 }
+button.form-btn{
+    padding: 10px 30px;
+}
 /*contact css ends here*/
