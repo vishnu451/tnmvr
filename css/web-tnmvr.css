@@ -153,3 +153,27 @@ button.form-btn{
     padding: 10px 30px;
 }
 /*contact css ends here*/
+/*about css starts here*/
+div.about-section{
+    width: 100%;
+    max-width: 700px;
+    margin: 50px auto 0;
+    background-color: #eaeaea;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0.4rem 0.4rem 1.6rem 0px;
+}
+p.about-title{
+    text-align: center;
+    font-size: 25px;
+    color: #0093dd;
+    margin-top: 25px;
+}
+img.about-img{
+    width: 100%;
+    border: 5px solid #ffd246;
+    border-radius: 40px;
+    margin: 0 auto;
+    display: block;
+    max-width: 170px;
+}
