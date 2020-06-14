@@ -140,6 +140,7 @@ form#contact-form input{
     margin-bottom: 15px;
     border: 0;
     width: 100%;
+    padding: 5px;
 }
 input.message-box{
     height: 100px;
