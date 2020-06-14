@@ -95,8 +95,8 @@ img.web-social-icon{
 .accordion .fa{
     margin-right: 0.5rem;
 }
-
 /*Accordian CSS ends here*/
+
 @media only screen and (min-width: 700px) {
 .web-tn-flex-container{
     display: flex;
@@ -120,3 +120,32 @@ div.card-body{
     color: #fff;
 } */
 }
+
+/*contact css starts here*/
+/*form css*/
+form#contact-form{
+    max-width: 500px;
+    width: 100%;
+    margin: 50px auto;
+    background-color: #eaeaea;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0.4rem 0.4rem 1.6rem 0px;
+}
+h2.form-title{
+    text-align: center;
+}
+form#contact-form input{
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 0;
+    width: 100%;
+}
+input.message-box{
+    height: 100px;
+    text-align: center;
+}
+sup{
+    color: red;
+}
+/*contact css ends here*/
