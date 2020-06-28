@@ -88,6 +88,43 @@ img.web-social-icon{
     width:15%;
     margin-right:5px;
 }
+/*header css starts here*/
+section.header{
+    background-color: #0093dd;
+    padding:20px;
+}
+a.page-title{
+   font-size: 30px;
+   color: #fff;
+}
+a.contact-link,
+a.about-link
+{
+   color: #fff;
+   font-size: 22px;
+}
+.header-section a:hover{
+    text-decoration: none;
+}
+@media only screen and (max-width:768px){
+    a.contact-link,
+    a.about-link
+    {
+    float: none;
+    display: block;
+}
+}
+@media only screen and (min-width:768px){
+    a.contact-link,
+    a.about-link
+    {
+    padding: 12px;
+}
+a.contact-link{
+    margin-left: 20px;
+}
+}
+
 /*Accordian CSS starts here*/
 .bs-example{
     margin: 20px;
@@ -176,4 +213,9 @@ img.about-img{
     margin: 0 auto;
     display: block;
     max-width: 170px;
+}
+p.email-text{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
 }
